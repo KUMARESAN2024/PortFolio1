@@ -68,6 +68,29 @@ function openWindow(title = "Info") {
         quickly to challenges and strive to grow both technically and professionally in the tech industry</p>
       `;
     }
+
+    else if (title === 'Trash') {
+  content = `
+    <h5>Education</h5>
+    <ul>
+      <li>
+        <strong>2022 – Present:</strong> Bachelor of Engineering (B.E.) in Computer Science<br/>
+        K.S.R. College of Engineering, Tiruchengode<br/>
+        CGPA: 8.39 (up to 5th semester)
+      </li>
+      <li>
+        <strong>2021 – 2022:</strong> Higher Secondary Certificate (HSC)<br/>
+        Swamy Vivekanandar Matric Hr. Sec School, Kanchamalayur<br/>
+        Percentage: 82.2%
+      </li>
+      <li>
+        <strong>2019 – 2020:</strong> Secondary School Leaving Certificate (SSLC)<br/>
+        Swamy Vivekanandar Matric Hr. Sec School, Kanchamalayur<br/>
+        Percentage: 80.2%
+      </li>
+    </ul>
+  `;
+}
   
     else if (title === 'Project') {
       content = `
