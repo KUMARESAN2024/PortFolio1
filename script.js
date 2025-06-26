@@ -69,7 +69,7 @@ function openWindow(title = "Info") {
       `;
     }
 
-    else if (title === 'Trash') {
+    else if (title === 'Education') {
   content = `
     <h5>Education</h5>
     <ul>
